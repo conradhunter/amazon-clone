@@ -1,0 +1,306 @@
+a:hover {
+  cursor: not-allowed;
+}
+
+
+/* NAV ONE */
+
+nav {
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-evenly;
+}
+
+nav input {
+  padding: 0;
+}
+
+nav div {
+  border-radius: 2px;
+}
+
+#searchSelect {
+  max-width: 50px;
+}
+
+#search__icon {
+  color: #fff;
+}
+
+#heading__one {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+#heading__two {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+#australian__flag {
+  max-width: 35px;
+  margin-right: 8px;
+}
+
+#amazon__logo {
+  max-width: 100px;
+}
+
+#search__icon {
+  color: #fff;
+  font-size: 22px;
+}
+
+#search__container {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.search__specs {
+  height: 30px;
+}
+
+#searchSelect {
+  border: none;
+  border-right: 1px solid darkgray;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: lightgray;
+  outline: none;
+}
+
+#search__bar {
+  width: 100%;
+  width: 550px;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  outline: none;
+  padding: 0 6px;
+  margin-right: 10px;
+}
+
+#addressFinder__container {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+#location__icon {
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+#heading__container {
+  border: none;
+}
+
+#cart__icon {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#angleDown__icon {
+  color: #ffffff;
+}
+
+#signIn__container {
+  line-height: 0;
+}
+
+#returnsOrders__container {
+  line-height: 0;
+}
+
+
+
+
+
+/* NAV TWO */
+
+#secondNav {
+  background-color: #232f3f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#secondNav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#secondNav a:hover {
+  text-decoration: underline;
+}
+
+.nav__a {
+  font-size: 14px;
+}
+
+#hamburgerMenu__container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+/* FOOTER */
+
+#scrollToTopBtn__container {
+  background-color: #31435b;
+}
+
+#btn {
+  width: 100%;
+  background-color: #31435b;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  height: 30px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #486183;
+}
+
+#links__lists--container {
+  background-color: #232f3f;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid #ffffff;
+}
+
+.link__list ul {
+  list-style-type: none;
+}
+
+.link__list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.link__list a:hover {
+  text-decoration: underline;
+}
+
+.link__list h3 {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 40px;
+  margin-bottom: 8px;
+}
+
+.link__list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.link__list:last-child {
+  margin-right: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+#storeSelect__container {
+  background-color: #232f3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#stores a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px;
+}
+
+#stores a:hover {
+  text-decoration: underline;
+}
+
+#stores li {
+  border-right: 1px solid #ffffff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#footer__logo {
+  max-width: 100px;
+  margin: 10px 0;
+} 
+
+#services__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#services__links ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 4px;
+}
+
+#services__links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 6px;
+}
+
+#services__links h6 {
+  color: #ffffff;
+}
+
+#services__links li {
+  border-right: 1px solid #ffffff;
+  font-size: 12px;
+}
+
+#services__links a:hover {
+  text-decoration: underline;
+}
+
+#conditions__container {
+  background-color: #18202b;
+  display: flex;
+}
+
+#conditions__container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px auto 20px;
+}
+
+#conditions__container a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#conditions__container a:hover {
+  text-decoration: underline;
+}
